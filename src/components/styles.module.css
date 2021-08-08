@@ -1,0 +1,136 @@
+.box{
+    width: 18%;
+    box-shadow: 0px 4px 4px #41c7cc;
+    color: #ccdbdb;
+    transition: all 100ms ease;
+    transform: scale(100%);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.box:hover{
+    transform: scale(105%);
+    color: #fff;
+    font-weight: 500;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 6px #55e8ed;
+}
+
+.img{
+    width: 100%;
+    height: 350px;
+}
+
+.cardflex{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.dummy{
+    margin-top:5%;
+}
+
+.head{
+    color: #fff;
+    font-size:32px;
+    font-weight:600;
+    letter-spacing:2px;
+    word-spacing:2px;
+    box-sizing: border-box;
+}
+
+.name{
+    font-size:18px;
+    letter-spacing:1px;
+    word-spacing:1px;
+}
+
+.brand{
+    font-size:16px;
+    letter-spacing:1px;
+    word-spacing:1px;
+}
+
+.price{
+    font-size:16px;
+    letter-spacing:1px;
+    word-spacing:1px;
+    color:#2be02e;
+}
+
+
+/* Footer modules */
+
+.footerflex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    padding-bottom: 2%;
+}
+
+.foothead{
+    color: gold;
+    letter-spacing:2px;
+}
+
+.footname{
+    color: #ccdbdb;
+    font-size:16px;
+    letter-spacing:1px;
+    font-weight:500;
+    cursor: pointer;
+}
+
+.footname:hover{
+    color: #fff;
+    font-weight:600;
+}
+
+.footadd{
+    color: #ccdbdb;
+    font-size:16px;
+    letter-spacing:1px;
+    font-weight:500;
+}
+
+.point{
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.rel{
+    position:relative;
+}
+
+.abs{
+    position:absolute;
+    top:-20%;
+    left:80%;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    border:2px solid #03F55E;
+    box-shadow: 0 0 5px #03F55E;
+    color: white;
+    font-size:18px;
+    font-weight:bold;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgb(0 150 136 / 70%), 0 0 0 0 rgb(0 150 136 / 70%);
+    }
+    
+    40% {
+        box-shadow: 0 0 0 10px rgb(0 150 136 / 0%), 0 0 0 0 rgb(0 150 136 / 70%);
+    }
+    80% {
+        box-shadow: 0 0 0 10px rgb(0 150 136 / 0%), 0 0 0 10px rgb(0 150 136 / 0%);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgb(0 150 136 / 0%), 0 0 0 10px rgb(0 150 136 / 0%);
+    }
+}

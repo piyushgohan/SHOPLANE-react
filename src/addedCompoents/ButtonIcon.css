@@ -1,0 +1,48 @@
+.button{
+    width:70px;
+    height:70px;
+    font-weight:600;
+}
+
+.title{
+    font-size:20px;
+    font-weight:600;
+    margin-top:10px;
+}
+
+.buttonbox{
+    background-image: linear-gradient(to right, #03fc4e , #03adfc );
+    width:100px;
+    height:100px;
+    margin-left:auto;
+    margin-right:auto;
+    box-sizing: border-box;
+    border-radius:50%;
+    padding-top: 15px;
+    animation:animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgb(0 150 136 / 70%), 0 0 0 0 rgb(0 150 136 / 70%);
+    }
+    
+    40% {
+        box-shadow: 0 0 0 50px rgb(0 150 136 / 0%), 0 0 0 0 rgb(0 150 136 / 70%);
+    }
+    80% {
+        box-shadow: 0 0 0 50px rgb(0 150 136 / 0%), 0 0 0 30px rgb(0 150 136 / 0%);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgb(0 150 136 / 0%), 0 0 0 30px rgb(0 150 136 / 0%);
+    }
+}
+
+.button-super{
+    color:#ebe2e1;
+    letter-spacing:1.2px; 
+}
+
+.button-super:hover{
+    color: white;
+}
